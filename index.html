@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numA = prompt('ingrese numero A:');
+let numB = prompt('ingrese numero B:');
+let operacion = prompt('ingrese operacion a realizar suma,resta,multi,division:');
+//let numA = 23;
+//let numB = 3;
+//let operacion = 'division';
+let resultado = 0;
+let suma = 'suma';
+let resta = 'resta';
+let mult = 'mult';
+let division = 'division';
+function realizarOperacion(){
+this.operacion;
+this.resultado;
+//console.log(operacion)
+if ( operacion === suma){
+    return suma = parseInt(numA) + parseInt(numB);
+}
+else if (operacion === resta){
+    return resta = parseInt(numA) - parseInt(numB);
+}
+else if (operacion === mult){
+    return multi = parseInt(numA) + parseInt(numB)
 
+}
+else if (operacion === division){
+    if(numB !==0){
+        return division = parseInt(numA) / parseInt(numB);    
+    }
+        console.log('no se puede dividir por 0');
+    }
+   
+}
+console.log('El reultado de la operacion es :',realizarOperacion());
+resultado = realizarOperacion();
+//console.log(resultado)
+   
+    </script>
+</body>
+</html>
